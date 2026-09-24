@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>InstaDoodle Review 2026 — Is This AI Whiteboard Tool Worth It?</title>
+<meta name="description" content="An independent look at InstaDoodle, the AI-powered whiteboard doodle video tool — features, pricing, pros, cons, and where to get it.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FAF7F0; --ink:#211F1C; --ink-soft:#5B564E;
+  --marker:#FF4B36; --marker-dark:#D6381F; --highlight:#FFD23F; --good:#1E8E5A; --warn:#B4590E;
+  --line:#E7E0D2; --card:#FFFFFF;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth; scroll-padding-top:env(safe-area-inset-top,0px);}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--paper:#1B1917; --ink:#F3EFE6; --ink-soft:#B8B2A6; --card:#242220; --line:#37332C;}
+}
+:root[data-theme="dark"]{--paper:#1B1917; --ink:#F3EFE6; --ink-soft:#B8B2A6; --card:#242220; --line:#37332C;}
+body{margin:0; background:var(--paper); color:var(--ink); font-family:'Inter',sans-serif; line-height:1.6; overflow-x:hidden;}
+h1,h2,h3{font-family:'Space Grotesk',sans-serif; font-weight:700; line-height:1.15; margin:0 0 .5rem;}
+.hand{font-family:'Kalam',cursive;}
+p{margin:0 0 1rem; color:var(--ink-soft); max-width:64ch;}
+a{color:inherit;}
+.wrap{max-width:880px; margin:0 auto; padding:0 24px;}
+section{padding:56px 0;}
+@media(max-width:720px){section{padding:38px 0;}}
+
+.disclosure{background:var(--ink); color:var(--paper); font-size:.82rem; text-align:center; padding:9px 16px;}
+.disclosure a{text-decoration:underline;}
+
+nav{position:sticky; top:0; z-index:50; background:color-mix(in srgb, var(--paper) 90%, transparent); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+.navrow{display:flex; align-items:center; justify-content:space-between; padding:14px 24px; max-width:880px; margin:0 auto;}
+.logo{font-family:'Space Grotesk'; font-weight:700; font-size:1.2rem;}
+.tag{font-size:.72rem; color:var(--ink-soft); font-weight:500;}
+.btn{display:inline-flex; align-items:center; gap:8px; padding:12px 22px; border-radius:100px; font-weight:600; text-decoration:none; transition:transform .15s ease, box-shadow .15s ease; font-size:.95rem;}
+.btn-primary{background:var(--marker); color:#fff;}
+.btn-primary:hover{transform:translateY(-2px); box-shadow:0 6px 0 var(--marker-dark);}
+
+.hero{padding:56px 0 24px;}
+.eyebrow-hand{font-family:'Kalam'; color:var(--marker); font-size:1.05rem; transform:rotate(-2deg); display:inline-block;}
+.hero h1{font-size:clamp(1.9rem,4.4vw,2.9rem); max-width:16ch;}
+.hero .sub{font-size:1.08rem; max-width:56ch;}
+.meta-row{display:flex; gap:18px; flex-wrap:wrap; font-size:.85rem; color:var(--ink-soft); margin:14px 0 22px;}
+.hero-ctas{display:flex; gap:14px; flex-wrap:wrap; margin-top:8px;}
+
+.notice{background:var(--card); border:1.5px solid var(--line); border-left:4px solid var(--marker); border-radius:12px; padding:18px 20px; font-size:.92rem;}
+.notice p{margin:0; color:var(--ink-soft);}
+
+.table-scroll{overflow-x:auto; -webkit-overflow-scrolling:touch; margin:18px 0 6px;}
+.comp-table{width:100%; border-collapse:collapse; min-width:640px; font-size:.9rem;}
+.comp-table th, .comp-table td{padding:12px 14px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top;}
+.comp-table thead th{font-family:'Space Grotesk'; font-weight:700; background:var(--card); position:sticky; top:0;}
+.comp-table thead th:first-child{background:transparent;}
+.comp-table tbody td:first-child{font-weight:600; color:var(--ink); white-space:nowrap;}
+.comp-table tbody td:not(:first-child){color:var(--ink-soft);}
+.comp-table thead th:nth-child(2){color:var(--marker);}
+.comp-table tbody tr:hover{background:color-mix(in srgb, var(--marker) 4%, transparent);}
+
+.video-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:16px 0 26px;}
+@media(max-width:640px){.video-grid{grid-template-columns:1fr;}}
+.video-link{display:flex; align-items:center; gap:12px; text-decoration:none; color:var(--ink); border:1.5px solid var(--line); border-radius:12px; padding:12px 14px; background:var(--card); font-weight:600; font-size:.95rem; transition:border-color .15s ease, transform .15s ease;}
+.video-link:hover{border-color:var(--marker); transform:translateY(-2px);}
+.play-ico{flex:none; width:36px; height:36px; border-radius:50%; background:var(--marker); display:flex; align-items:center; justify-content:center;}
+.play-ico svg{width:15px; height:15px;}
+.vsub{font-weight:500; font-size:.8rem; color:var(--ink-soft);}
+
+
+.board{position:relative; background:var(--card); border:2px solid var(--ink); border-radius:20px; padding:18px; box-shadow:8px 8px 0 var(--marker); margin:28px 0;}
+.board svg{width:100%; height:auto; display:block;}
+
+.sec-head h2{font-size:clamp(1.5rem,2.8vw,2.05rem);}
+
+.feat-list{list-style:none; padding:0; margin:18px 0;}
+.feat-list li{display:flex; gap:12px; padding:14px 0; border-bottom:1px solid var(--line);}
+.feat-list li:last-child{border-bottom:none;}
+.feat-list svg{flex:none; width:20px; height:20px; margin-top:3px; color:var(--marker);}
+.feat-list h3{font-size:1rem; margin:0 0 3px;}
+.feat-list p{margin:0; font-size:.92rem;}
+
+.proscons{display:grid; grid-template-columns:1fr 1fr; gap:22px;}
+@media(max-width:640px){.proscons{grid-template-columns:1fr;}}
+.pc-col{background:var(--card); border:1.5px solid var(--line); border-radius:16px; padding:22px;}
+.pc-col h3{font-size:1.02rem;}
+.pc-col.pro h3{color:var(--good);}
+.pc-col.con h3{color:var(--warn);}
+.pc-col ul{padding-left:20px; margin:0; color:var(--ink-soft); font-size:.92rem;}
+.pc-col li{margin-bottom:8px;}
+
+.price-card{background:var(--card); border:2px solid var(--ink); border-radius:18px; padding:28px; text-align:center; max-width:380px; margin:24px auto 0;}
+.price-card .amount{font-family:'Space Grotesk'; font-size:2.4rem; font-weight:700;}
+.price-card .period{color:var(--ink-soft); font-size:.9rem; margin-bottom:14px;}
+.price-note{font-size:.82rem; color:var(--ink-soft); margin-top:12px;}
+
+.verdict{background:var(--ink); color:var(--paper); border-radius:22px; padding:44px 32px; text-align:center;}
+.verdict h2{color:var(--paper); font-size:clamp(1.5rem,3vw,2.1rem);}
+.verdict p{color:#C9C4B8; max-width:52ch; margin:0 auto 20px;}
+.verdict .price-note{color:#a8a294;}
+
+.faq-item{border-bottom:1px solid var(--line); padding:16px 0;}
+.faq-q{display:flex; justify-content:space-between; align-items:center; cursor:pointer; font-weight:600; font-size:1rem; gap:16px;}
+.faq-q svg{flex:none; width:16px; height:16px; transition:transform .2s ease; color:var(--marker);}
+.faq-item.open .faq-q svg{transform:rotate(45deg);}
+.faq-a{max-height:0; overflow:hidden; transition:max-height .25s ease;}
+.faq-item.open .faq-a{max-height:200px;}
+.faq-a p{padding-top:8px; margin:0; font-size:.92rem;}
+
+footer{border-top:1px solid var(--line); padding:36px 0 28px; font-size:.82rem; color:var(--ink-soft);}
+footer .wrap p{max-width:none;}
+
+.reveal{opacity:0; transform:translateY(14px); transition:opacity .5s ease, transform .5s ease;}
+.reveal.in{opacity:1; transform:none;}
+@media (prefers-reduced-motion: reduce){.reveal{opacity:1; transform:none; transition:none;}}
+</style>
+</head>
+<body>
+
+<div class="disclosure">This page contains affiliate links. If you buy through them, we may earn a commission at no extra cost to you. See our <a href="#disclosure">full disclosure</a>.</div>
+
+<nav>
+  <div class="navrow">
+    <div><div class="logo">Doodle Video Tools</div><div class="tag">independent reviews</div></div>
+    <a href="https://7c23c8py01m1ty5dsmvyrfx7nc.hop.clickbank.net" class="btn btn-primary">Check Current Price</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow-hand">product review</span>
+    <h1>InstaDoodle Review: Is This AI Whiteboard Video Tool Worth It?</h1>
+    <p class="sub">An honest, independent look at InstaDoodle — an AI-powered whiteboard doodle video maker — so you can decide if it fits what you're trying to create.</p>
+    <div class="meta-row">
+      <span>Launched March 2025</span><span>·</span><span>Cloud-based</span><span>·</span><span>One-time payment (as advertised)</span>
+    </div>
+    <div class="hero-ctas">
+      <a href="https://7c23c8py01m1ty5dsmvyrfx7nc.hop.clickbank.net" class="btn btn-primary">Get InstaDoodle</a>
+    </div>
+    <div class="board">
+      <svg viewBox="0 0 520 260">
+        <circle cx="110" cy="130" r="30" fill="none" stroke="var(--ink)" stroke-width="2.2"/>
+        <path d="M85 172c9-12 35-12 45 0" stroke="var(--ink)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+        <path d="M150 150l30-24" stroke="var(--marker)" stroke-width="2.4" stroke-linecap="round"/>
+        <text x="190" y="90" class="hand" font-family="Kalam" font-size="24" fill="var(--ink)">"type a prompt..."</text>
+        <path d="M220 105q30 20 60 4" stroke="var(--ink)" stroke-width="1.6" fill="none" stroke-dasharray="4 5"/>
+        <rect x="320" y="60" width="150" height="90" rx="10" fill="none" stroke="var(--ink)" stroke-width="2"/>
+        <circle cx="395" cy="105" r="20" fill="var(--marker)"/>
+        <path d="M389 96l16 9-16 9z" fill="#fff"/>
+      </svg>
+    </div>
+    <div class="notice">
+      <p><strong>Independence note:</strong> This is a third-party review page, not the official InstaDoodle website. We're not affiliated with or endorsed by InstaDoodle's creators, Blastersuite. Everything below is compiled from public reviews and pricing pages — where sources disagree or a claim couldn't be confirmed, we say so.</p>
+    </div>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="wrap">
+    <div class="sec-head"><h2>What Is InstaDoodle?</h2></div>
+    <p>InstaDoodle is a cloud-based whiteboard animation tool built by Blastersuite, powered by an AI engine the company calls "DoodleAI™." Instead of hand-picking assets from a fixed library like older tools (Doodly, for example), you describe what you want in a text prompt and the AI generates a matching doodle. It's aimed at people who need quick, simple whiteboard-explainer video — marketers, educators, YouTubers, small businesses — without hiring an animator or learning full animation software.</p>
+    <p>It launched in 2025 and is positioned against heavier tools like Vyond and Powtoon: less capable of complex character animation, but faster to learn and sold as a one-time payment rather than a subscription.</p>
+  </div>
+</section>
+
+<section class="reveal" style="background:var(--card); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="sec-head"><h2>What the Reviews Actually Say</h2></div>
+    <p>We looked past the product's own marketing to independent review platforms. The picture is mixed, and it splits along a useful line: <strong>the product itself</strong> vs. <strong>the company behind it.</strong></p>
+    <ul class="feat-list">
+      <li><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h3>instadoodle.com on Trustpilot: 4.0 / 5</h3><p>Across 164 reviews, people commonly praise the ease of use and responsive customer support. The most common complaints are about rendering being slow on larger projects, and some frustration with the refund process.</p></div></li>
+      <li><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="var(--warn)" stroke-width="1.8"/><path d="M12 8v5M12 16h.01" stroke="var(--warn)" stroke-width="1.8" stroke-linecap="round"/></svg><div><h3>Blastersuite (the parent company) on Trustpilot: around 1.5 / 5</h3><p>This score is much lower, driven by reviews describing being charged twice for one plan, an aggressive upsell inbox, and features not matching what was promised on the sales page before purchase.</p></div></li>
+      <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h3>Independent hands-on review</h3><p>A detailed walkthrough review from a user who actually bought and used the product rated rendering speed and reliability positively, and called the AI voiceover "moderately good" — better than typical stock AI voices, but not at ElevenLabs quality.</p></div></li>
+    </ul>
+    <p style="font-size:.85rem;">Sources: Trustpilot listings for instadoodle.com and blastersuite.com; an independent hands-on review at reviewaiapps.com. Ratings can shift over time — worth a quick check on Trustpilot yourself before buying.</p>
+  </div>
+</section>
+
+<section class="reveal" style="background:var(--card); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="sec-head"><h2>Key Features (As Advertised)</h2></div>
+    <ul class="feat-list">
+      <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h3>AI text-to-doodle</h3><p>Type a prompt or a script (up to 3,000 characters) and the DoodleAI™ engine generates matching doodle scenes and slides.</p></div></li>
+      <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h3>Drag-and-drop editor</h3><p>Adjust animation style, text, and image sizing per slide after generation.</p></div></li>
+      <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h3>Multiple aspect ratios</h3><p>Originally landscape (16:9) only; 9:16, 1:1, 4:5 and 5:4 were added later for social formats.</p></div></li>
+      <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h3>Image-to-sketch converter</h3><p>Turn your own images into doodle-style sketches for a scene.</p></div></li>
+      <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h3>HD export on the base plan</h3><p>Standard HD rendering doesn't require an upsell — 2K and 4K do (see limitations below).</p></div></li>
+      <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h3>Cloud-based</h3><p>Runs in the browser — create and edit from any device with an internet connection.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="wrap">
+    <div class="sec-head"><h2>InstaDoodle vs. Doodly vs. VideoScribe vs. Animaker</h2><p>Four different approaches to the same problem. Pricing and ratings pulled from Capterra, G2, and vendor pricing pages — figures can shift, so treat these as directional.</p></div>
+    <div class="table-scroll">
+    <table class="comp-table">
+      <thead><tr><th></th><th>InstaDoodle</th><th>Doodly</th><th>VideoScribe</th><th>Animaker</th></tr></thead>
+      <tbody>
+        <tr><td>Asset method</td><td>AI-generated from text prompts</td><td>Fixed library, drag &amp; drop</td><td>Fixed library + your own SVG/image imports</td><td>Fixed library + character builder</td></tr>
+        <tr><td>Style</td><td>Doodle/whiteboard only</td><td>Whiteboard, blackboard, glassboard</td><td>Hand-drawn whiteboard "scribing"</td><td>Whiteboard + full 2D/cartoon animation</td></tr>
+        <tr><td>Pricing model</td><td>One-time front-end (~$37) + optional paid upsells</td><td>Subscription only, $49–$79/mo</td><td>Subscription only, roughly $20–$43/mo</td><td>Free tier, then $20–$80/mo (cheaper annually)</td></tr>
+        <tr><td>Free trial</td><td>Not offered</td><td>Not offered</td><td>Yes</td><td>Yes, plus a free plan</td></tr>
+        <tr><td>Rating (approx.)</td><td>4.0/5 Trustpilot (164)</td><td>4.2/5 Capterra/G2 (55–132)</td><td>4.1–4.2/5 Capterra/G2 (54–64)</td><td>4.2–4.7/5 Capterra/G2 (235–1,000+)</td></tr>
+        <tr><td>Best for</td><td>Fast, simple doodle videos from a prompt</td><td>Full manual control over classic whiteboard style</td><td>Custom hand-drawn scribing with your own art</td><td>Doodle video plus broader animation needs in one tool</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p style="font-size:.85rem;">Sources: Capterra and G2 listings for Doodly, VideoScribe, and Animaker; Trustpilot for InstaDoodle. Where a source gave a range depending on billing term (monthly vs. annual) or plan tier, we show the range rather than a single number.</p>
+    <div style="text-align:center; margin-top:20px;"><a href="https://7c23c8py01m1ty5dsmvyrfx7nc.hop.clickbank.net" class="btn btn-primary">See InstaDoodle's Current Price</a></div>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="wrap">
+    <div class="sec-head"><h2>The Honest Limitations</h2><p>This is the part most sales pages skip. Here's what to actually expect.</p></div>
+    <div class="proscons">
+      <div class="pc-col pro"><h3>Where it holds up</h3><ul>
+        <li>Genuinely simple to learn — no animation skill needed for a basic video</li>
+        <li>One-time front-end price, cheaper than most subscription tools</li>
+        <li>Rendering is reportedly fast and stable, even on the base plan</li>
+        <li>Good fit for short, simple explainer-style content</li>
+      </ul></div>
+      <div class="pc-col con"><h3>Where it falls short</h3><ul>
+        <li>The main offer is <strong>manual mode only</strong> — full AI-generated voiceover and auto-assembly require the "AI Wizard" upsell</li>
+        <li>You start with 150 AI credits that <strong>do not reset</strong>; refilling them means a $37–$47/month add-on</li>
+        <li>2K/4K export, a "Color Splash" style option, and extra AI voice packs ($27 for 6 more voices) are all separate upsells</li>
+        <li>No ElevenLabs integration, even with your own API key — the built-in AI voice is decent but not premium-grade</li>
+        <li>Limited to doodle/whiteboard style — not a fit if you need character animation or 3D (that's Vyond's territory)</li>
+        <li>The parent company's own Trustpilot rating is weak, largely due to billing and upsell-related complaints</li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="reveal" style="background:var(--card); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="sec-head"><h2>How to Actually Buy This Without Getting Burned</h2><p>The upsell funnel is the real risk here, not the core product. Here's how to navigate it.</p></div>
+    <ul class="feat-list">
+      <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h3>Decide upfront if you need full AI automation</h3><p>If you're fine writing your own script and assembling slides manually, skip the AI Wizard upsell — the front-end already covers that workflow.</p></div></li>
+      <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h3>Budget your credits before you start a big project</h3><p>150 credits go faster than you'd think — a single AI generation with 4 variations can use 4 at once. Plan your prompts rather than generating freely.</p></div></li>
+      <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h3>Check the checkout page for a refund window before paying</h3><p>Confirm the current guarantee at checkout and keep your receipt — several reviewers mentioned needing to follow up on refunds.</p></div></li>
+      <li><svg viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h3>Only add 2K/4K if you actually need it</h3><p>Most social and web use cases look fine in standard HD, which is included — save the Pro upsell for print or large-screen use.</p></div></li>
+    </ul>
+    <div style="text-align:center; margin-top:28px;"><a href="https://7c23c8py01m1ty5dsmvyrfx7nc.hop.clickbank.net" class="btn btn-primary">See Current Front-End Pricing</a></div>
+  </div>
+</section>
+
+<section class="reveal" id="get">
+  <div class="wrap" style="text-align:center;">
+    <div class="sec-head" style="margin:0 auto 6px;"><h2>Pricing</h2></div>
+    <p style="margin:0 auto 10px;">The front-end is listed as a one-time payment, commonly cited around $37. Extra AI credits run $37–$47/month if you use them up. 2K/4K export, AI Wizard (full AI voiceover + automation), Color Splash, and extra voice packs are separate one-time upsells.</p>
+    <div class="price-card">
+      <div class="amount">~$37</div>
+      <div class="period">front-end, one-time · upsells priced separately</div>
+      <a href="https://7c23c8py01m1ty5dsmvyrfx7nc.hop.clickbank.net" class="btn btn-primary" style="width:100%; justify-content:center;">Check Current Price &amp; Get InstaDoodle</a>
+      <div class="price-note">Link goes to our affiliate tracking link. Final price and terms are set by the seller — always confirm on their checkout page.</div>
+    </div>
+  </div>
+</section>
+
+<section class="reveal" id="faq">
+  <div class="wrap" style="max-width:760px;">
+    <div class="sec-head"><h2>Frequently Asked Questions</h2></div>
+    <div>
+      <div class="faq-item"><div class="faq-q">Is this the official InstaDoodle website?<svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><div class="faq-a"><p>No. This is an independent review page. Purchases are made through the seller's own checkout, reached via our affiliate link above.</p></div></div>
+      <div class="faq-item"><div class="faq-q">Do I need design or animation experience?<svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><div class="faq-a"><p>No. It's built around prompt-based generation and a drag-and-drop editor rather than manual animation skills.</p></div></div>
+      <div class="faq-item"><div class="faq-q">What happens when I run out of AI credits?<svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><div class="faq-a"><p>The 150 starting credits don't reset on their own, and there's no one-time top-up — refilling requires the monthly plan. Budget your AI generations accordingly.</p></div></div>
+      <div class="faq-item"><div class="faq-q">Can I use it for client or business work?<svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><div class="faq-a"><p>Check the seller's current license terms before using output commercially — usage rights can vary by plan and may change over time.</p></div></div>
+      <div class="faq-item"><div class="faq-q">How much does it cost right now?<svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><div class="faq-a"><p>The front-end has commonly been listed around $37 one-time, plus optional upsells. Launch-style pricing can change — the current price shows at checkout.</p></div></div>
+      <div class="faq-item"><div class="faq-q">Should I be cautious about this product?<svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><div class="faq-a"><p>The core product has a decent independent reputation, but the parent company has a notably weaker one, mostly tied to billing and upsell complaints. Read the limitations section above, and confirm the refund policy before you pay.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="wrap">
+    <div class="verdict">
+      <h2>Worth It If You Buy the Front-End and Know What You're Skipping</h2>
+      <p>InstaDoodle does what it promises for simple, prompt-driven doodle videos, and the base product reviews well on its own. The catch isn't the tool — it's the upsell funnel behind it. Go in knowing the credit limits and which upgrades you actually need, and it's a reasonable, low-cost way to get whiteboard-style video without an animator.</p>
+      <a href="https://7c23c8py01m1ty5dsmvyrfx7nc.hop.clickbank.net" class="btn btn-primary">Check Current Price &amp; Get InstaDoodle</a>
+      <div class="price-note">Affiliate link — we may earn a commission if you purchase, at no extra cost to you.</div>
+    </div>
+  </div>
+</section>
+
+<footer id="disclosure">
+  <div class="wrap">
+    <p><strong>Affiliate disclosure:</strong> Doodle Video Tools is an independent review page and is not the official InstaDoodle website, nor affiliated with or endorsed by its creators. Some links on this page are affiliate links — if you make a purchase through them, we may earn a commission at no additional cost to you. Product name, pricing, and feature claims are sourced from the seller's marketing and third-party listings and have not been independently verified; confirm current details on the official checkout page before buying.</p>
+    <p>© 2026 Doodle Video Tools. For informational purposes only — not investment, legal, or professional advice.</p>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.faq-q').forEach(q=>{
+  q.addEventListener('click',()=>{
+    const item=q.parentElement;
+    const wasOpen=item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));
+    if(!wasOpen) item.classList.add('open');
+  });
+});
+try{
+  const obs=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); obs.unobserve(e.target); } });
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+}catch(e){ document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in')); }
+</script>
+</body>
+</html>
